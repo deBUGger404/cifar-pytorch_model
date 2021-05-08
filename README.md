@@ -30,7 +30,7 @@ train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, sh
 
 ## Prerequisites
 - Python>=3.6
-- PyTorch >=1.0
+- PyTorch >=1.4
 
 ## Training
 I used pretrained `resnet18` for model training. you can use any other pretrained model according to you problem.
