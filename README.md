@@ -31,6 +31,7 @@ train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, sh
 ## Prerequisites
 - Python>=3.6
 - PyTorch >=1.4
+- Library are mentioned in `requirenments.txt`
 
 ## Training
 I used pretrained `resnet18` for model training. you can use any other pretrained model according to you problem.
@@ -41,5 +42,19 @@ vgg16 = models.vgg16()
 densenet = models.densenet161()
 inception = models.inception_v3()
 ```
+There are two things for pytorch model training.
+1. Notebook - you can just download and play with it
+2. python scripts:
+```
+# Start training with: 
+python main.py
+
+# You can manually pass the attributes for the training: 
+python main.py --lr=0.01 --epoch 20 --model_path './cifar_model.pth'
+
+# Start infrence with:
+ python3.6 prediction.py --model_path './cifar_model.pth'
+```
+
 
 # Give a :star: to this Repository!
