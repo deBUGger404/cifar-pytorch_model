@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 parser = argparse.ArgumentParser(description='CIFAR10 PyTorch training')
 parser.add_argument('--lr', default=0.1, type=float, help='learning-rate')
 parser.add_argument('--epochs', default=5, type=int, help='number of epoch')
-parser.add_argument('--model_path', default='./cifar_net.pth', type=str, help='model output path')
+parser.add_argument('--model_path', default='./cifar_model.pth', type=str, help='model output path')
 args = parser.parse_args()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
