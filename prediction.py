@@ -13,7 +13,7 @@ import argparse
 import numpy as np
 
 parser = argparse.ArgumentParser(description='CIFAR10 PyTorch inference')
-parser.add_argument('--model_path', default='./cifar_net.pth', type=str, help='model output path')
+parser.add_argument('--model_path', default='./cifar_model.pth', type=str, help='model output path')
 args = parser.parse_args()
 
 transform = transforms.Compose(
