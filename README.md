@@ -41,3 +41,5 @@ vgg16 = models.vgg16()
 densenet = models.densenet161()
 inception = models.inception_v3()
 ```
+
+# Give a :star: to this Repository!
