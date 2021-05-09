@@ -1,7 +1,7 @@
 # Train Basic Model on CIFAR10-Dataset
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59862546/117540979-59b64100-b02f-11eb-9ea9-457ecf2e2271.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/59862546/117540979-59b64100-b02f-11eb-9ea9-457ecf2e2271.png" width="400" height="200"><img src="https://user-images.githubusercontent.com/16641054/46775076-8b17e480-cd40-11e8-9501-89c6fbca36bd.jpg" width="400" height="200"> 
 <p>
   
 ## Contents
